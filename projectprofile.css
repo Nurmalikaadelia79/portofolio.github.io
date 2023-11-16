@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: purple;
+}
+nav ul li  {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    text-emphasis: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: purple;
+    transition: .4s;
+}
+.btn{
+    background: white;
+    color: purple;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: purple;
+    font-size: 40px;
+    margin: 10px 0px 10px;
+    margin-left: 150px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+.About{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.About img {
+    height: auto;
+    width: 150px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+.About-text{
+    width: 550px;
+    color: white;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.About-text h2{
+    color: purple;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.About-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.About-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 10px;
+    margin-bottom: 45px;
+    margin-left: 5px;
+}
+button {
+    background-color: purple;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 4s;
+    margin-left: 50px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.kontak {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.gas img {
+    height: auto;
+    width: 300px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.kontak-text{
+    width: 550px;
+    color: white;
+}
+.gas{
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.kontak-teks h2{
+    color: purple;
+    width: 90%;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.kontak-teks h5{
+    color: white;
+    width: 85%;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: 50px;
+} 
+.kontak-teks p{
+    color: white;
+    width: 85%;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 10px;
+    margin-bottom: 45px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.open {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.mari img {
+    height: auto;
+    width: 300px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.mari-text{
+    width: 550px;
+    color: white;
+}
+.mari{
+    width: 1130px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.mari-text h2{
+    color: purple;
+    width: 90%;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.mari-text h5{
+    color: white;
+    width: 90%;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-top: 50px;
+} 
+
+.btm{
+    background: white;
+    color: purple;
+    width: 100px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-left: 160px;
+    margin-top: 10%;
+    
+}
+.btm:hover{
+    transform: scale(1.2);
+
+}
+.mari-text h4 {
+    color: purple;
+    width: 90%;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-top: 50px; 
+}

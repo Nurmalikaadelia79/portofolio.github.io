@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
+
+header{
+    background-color: bisque;
+    text-align: center;
+    width: 1300px;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+header h1{
+    padding: 22px 0px;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    background-color: grey;
+    position: sticky;
+}
+
+ 
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.card) {
+    background-color: black;
+}
+
+.card{
+    background-color: black;
+}
+li a:hover.card {
+    background-color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.hemas{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    width: 75%;
+}
+
+.tompel{
+    margin-right: 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: burlywood;
+    margin-top: 5px;
+}
+
+.syahrani{
+    justify-content: end;
+    display: flex;
+}
+
+.rafi{
+     margin-left: 13%;
+}
+
+.hitam{
+     
+    background-color: black;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.putih{
+    color: white;
+}
